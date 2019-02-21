@@ -1,0 +1,7 @@
+role_name = "BucketS3TriggerLambdaRole"
+lambda_arn = "arn:aws:lambda:us-east-1:807746362931:function:stock-picture-upsert"
+bucket_arn = "arn:aws:s3:::stockpost"
+lambda_name = "stock-picture-upsert"
+bucket_name = "stockpost"
+aws_region = "us-east-1"
+aws_profile = "terraform"
