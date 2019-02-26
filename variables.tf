@@ -35,3 +35,13 @@ variable aws_profile {
     type = "string"
     default = "terraform"
 }
+
+variable "prefix" {
+    type = "string"
+    default = "/"
+}
+
+variable "suffix" {
+    type = "string"
+    default = ".jpg"
+}
